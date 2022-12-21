@@ -4,7 +4,6 @@
   "description": "merge multiple PDF documents, or parts of them, to a new PDF document",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "browser": "./browser.js",
   "scripts": {
     "standard": "standard",
     "standard:fix": "standard --fix",
@@ -13,8 +12,7 @@
   },
   "standard": {
     "env": [
-      "jest",
-      "browser"
+      "jest"
     ]
   },
   "repository": "github:nbesli/pdf-merger-js",
